@@ -1,0 +1,731 @@
+[gd_scene load_steps=156 format=4 uid="uid://37o387x06mm"]
+
+[ext_resource type="PackedScene" uid="uid://bhasq7mdhj17" path="res://Assets/KenneyModels/animal-bison.glb" id="1_y5nbp"]
+[ext_resource type="PackedScene" uid="uid://c333ij633451r" path="res://Assets/KenneyModels/animal-dog.glb" id="2_gpyvq"]
+[ext_resource type="PackedScene" uid="uid://bpqa3mjmk0ews" path="res://Assets/KenneyModels/animal-horse.glb" id="3_x1t72"]
+[ext_resource type="PackedScene" uid="uid://d1yqdmu47pugv" path="res://Assets/KenneyModels/button-floor-round-small.glb" id="4_yn3cc"]
+[ext_resource type="PackedScene" uid="uid://c1wga2c06a23w" path="res://Assets/KenneyModels/button-floor-round.glb" id="5_07u2m"]
+[ext_resource type="PackedScene" uid="uid://cpej7xac3edfh" path="res://Assets/KenneyModels/button-floor-square-small.glb" id="6_776uc"]
+[ext_resource type="PackedScene" uid="uid://b2h7ok3hwo2ly" path="res://Assets/KenneyModels/button-floor-square.glb" id="7_qmpwl"]
+[ext_resource type="PackedScene" uid="uid://bc4ubrsx7pk7b" path="res://Assets/KenneyModels/coin.glb" id="8_1626l"]
+[ext_resource type="PackedScene" uid="uid://ckjcjwyc2kut5" path="res://Assets/KenneyModels/column-low.glb" id="9_c5j8j"]
+[ext_resource type="PackedScene" uid="uid://dtpk2rwfgtfwq" path="res://Assets/KenneyModels/column-rounded-low.glb" id="10_24dgt"]
+[ext_resource type="PackedScene" uid="uid://bgi0qq451rmc2" path="res://Assets/KenneyModels/column-rounded.glb" id="11_gc3jf"]
+[ext_resource type="PackedScene" uid="uid://0hhl3yhvvjk4" path="res://Assets/KenneyModels/column-triangle-low.glb" id="12_boqb6"]
+[ext_resource type="PackedScene" uid="uid://d06xjju2kmos2" path="res://Assets/KenneyModels/column-triangle.glb" id="13_pc5wo"]
+[ext_resource type="PackedScene" uid="uid://b5m0j7l0xricq" path="res://Assets/KenneyModels/column.glb" id="14_noppi"]
+[ext_resource type="PackedScene" uid="uid://pkhkr7s482wb" path="res://Assets/KenneyModels/crate-color.glb" id="15_ja15y"]
+[ext_resource type="PackedScene" uid="uid://cco721ff4vobn" path="res://Assets/KenneyModels/crate.glb" id="16_6gsbi"]
+[ext_resource type="PackedScene" uid="uid://bpdanh10svdw2" path="res://Assets/KenneyModels/door-garage.glb" id="17_3qraq"]
+[ext_resource type="PackedScene" uid="uid://bmn05st8bt7ea" path="res://Assets/KenneyModels/door-rotate.glb" id="18_d76g0"]
+[ext_resource type="PackedScene" uid="uid://qh00dvw5dibw" path="res://Assets/KenneyModels/door-sliding-double-round.glb" id="19_uae8r"]
+[ext_resource type="PackedScene" uid="uid://kci3of00tint" path="res://Assets/KenneyModels/door-sliding-double-wide.glb" id="20_02pxp"]
+[ext_resource type="PackedScene" uid="uid://1ly4xdcvyat1" path="res://Assets/KenneyModels/door-sliding-double.glb" id="21_rcwm4"]
+[ext_resource type="PackedScene" uid="uid://cr27llgxj5ceo" path="res://Assets/KenneyModels/door-sliding.glb" id="22_8q15q"]
+[ext_resource type="PackedScene" uid="uid://cext5qmyisa0y" path="res://Assets/KenneyModels/figurine-cube-detailed.glb" id="23_0n0fh"]
+[ext_resource type="PackedScene" uid="uid://7c8keqb5axqs" path="res://Assets/KenneyModels/figurine-cube.glb" id="24_g5he5"]
+[ext_resource type="PackedScene" uid="uid://xqi0lw7bwn" path="res://Assets/KenneyModels/figurine-large.glb" id="25_f58pr"]
+[ext_resource type="PackedScene" uid="uid://dt6pl385u5f6t" path="res://Assets/KenneyModels/figurine.glb" id="26_xnvce"]
+[ext_resource type="PackedScene" uid="uid://d3aq8pb3ppmck" path="res://Assets/KenneyModels/flag.glb" id="27_0we63"]
+[ext_resource type="PackedScene" uid="uid://3efhqv351rjw" path="res://Assets/KenneyModels/floor-diagonal.glb" id="28_t6s36"]
+[ext_resource type="PackedScene" uid="uid://lyfqnquhnt6u" path="res://Assets/KenneyModels/floor-small-diagonal.glb" id="29_x307m"]
+[ext_resource type="PackedScene" uid="uid://imfygh8xh11p" path="res://Assets/KenneyModels/floor-small-square.glb" id="30_rd1kj"]
+[ext_resource type="PackedScene" uid="uid://bkfp0g02cga7u" path="res://Assets/KenneyModels/floor-square.glb" id="31_scv23"]
+[ext_resource type="PackedScene" uid="uid://ogagsox8jkau" path="res://Assets/KenneyModels/floor-thick-corner-diagonal.glb" id="32_jm86g"]
+[ext_resource type="PackedScene" uid="uid://bjcaure8c77b" path="res://Assets/KenneyModels/floor-thick-corner-round.glb" id="33_hv6dt"]
+[ext_resource type="PackedScene" uid="uid://1qmfajx1aha1" path="res://Assets/KenneyModels/floor-thick-corner-rounded.glb" id="34_1c8x1"]
+[ext_resource type="PackedScene" uid="uid://cy5cdo1ogvu17" path="res://Assets/KenneyModels/floor-thick.glb" id="35_offtn"]
+[ext_resource type="PackedScene" uid="uid://blls5pasc6fqr" path="res://Assets/KenneyModels/hat-cap.glb" id="36_nr87c"]
+[ext_resource type="PackedScene" uid="uid://bi8u0a0lq0s34" path="res://Assets/KenneyModels/hat-hard.glb" id="37_twrlr"]
+[ext_resource type="PackedScene" uid="uid://s4injeq5gmtf" path="res://Assets/KenneyModels/indicator-doorway.glb" id="38_xwbn7"]
+[ext_resource type="PackedScene" uid="uid://bm8ky7m1xe6nr" path="res://Assets/KenneyModels/indicator-round-a.glb" id="39_1ntov"]
+[ext_resource type="PackedScene" uid="uid://2ufb3brv68ik" path="res://Assets/KenneyModels/indicator-round-b.glb" id="40_480ag"]
+[ext_resource type="PackedScene" uid="uid://c1671oxb5lxqy" path="res://Assets/KenneyModels/indicator-round-c.glb" id="41_nq4no"]
+[ext_resource type="PackedScene" uid="uid://cghxmdtugdqdl" path="res://Assets/KenneyModels/indicator-round-d.glb" id="42_d1tab"]
+[ext_resource type="PackedScene" uid="uid://bjygivo2rtaqe" path="res://Assets/KenneyModels/indicator-round-e.glb" id="43_rb2ei"]
+[ext_resource type="PackedScene" uid="uid://cj0162477v8hv" path="res://Assets/KenneyModels/indicator-round-f.glb" id="44_a30am"]
+[ext_resource type="PackedScene" uid="uid://co8hwcs2nr4eo" path="res://Assets/KenneyModels/indicator-special-area.glb" id="45_ptrdh"]
+[ext_resource type="PackedScene" uid="uid://c23cixyavvlug" path="res://Assets/KenneyModels/indicator-special-arrow.glb" id="46_2y1bo"]
+[ext_resource type="PackedScene" uid="uid://po1ww3lkdmiv" path="res://Assets/KenneyModels/indicator-special-cross.glb" id="47_0lsk6"]
+[ext_resource type="PackedScene" uid="uid://d3dnavxpl3gkw" path="res://Assets/KenneyModels/indicator-special-lines.glb" id="48_4jyqv"]
+[ext_resource type="PackedScene" uid="uid://kv6x26pmx3d5" path="res://Assets/KenneyModels/indicator-square-a.glb" id="49_xc5wc"]
+[ext_resource type="PackedScene" uid="uid://1vgpvkhpwruf" path="res://Assets/KenneyModels/indicator-square-b.glb" id="50_m16m1"]
+[ext_resource type="PackedScene" uid="uid://mpmbndqh8vd0" path="res://Assets/KenneyModels/indicator-square-c.glb" id="51_bfy08"]
+[ext_resource type="PackedScene" uid="uid://bo4sq6o17unia" path="res://Assets/KenneyModels/indicator-square-d.glb" id="52_sa5bm"]
+[ext_resource type="PackedScene" uid="uid://bi84xf2y5n5l0" path="res://Assets/KenneyModels/indicator-square-e.glb" id="53_1v4hu"]
+[ext_resource type="PackedScene" uid="uid://pyl7hkffs5q1" path="res://Assets/KenneyModels/indicator-square-f.glb" id="54_cm2lt"]
+[ext_resource type="PackedScene" uid="uid://cgjssbf14xlyb" path="res://Assets/KenneyModels/ladder-color.glb" id="55_4f2nr"]
+[ext_resource type="PackedScene" uid="uid://cjnno1yxmfaia" path="res://Assets/KenneyModels/ladder-top.glb" id="56_81imq"]
+[ext_resource type="PackedScene" uid="uid://fbmdedjvrnt4" path="res://Assets/KenneyModels/ladder.glb" id="57_qpfr5"]
+[ext_resource type="PackedScene" uid="uid://bk7kyhx4ulvco" path="res://Assets/KenneyModels/lever-double.glb" id="58_cb7vq"]
+[ext_resource type="PackedScene" uid="uid://roudo0c4n74n" path="res://Assets/KenneyModels/lever-single.glb" id="59_osc8w"]
+[ext_resource type="PackedScene" uid="uid://dsm8nit4qjmcf" path="res://Assets/KenneyModels/number-0.glb" id="60_lyxea"]
+[ext_resource type="PackedScene" uid="uid://s1dp73nrrt1c" path="res://Assets/KenneyModels/number-1.glb" id="61_cjura"]
+[ext_resource type="PackedScene" uid="uid://cycjme7xvpu42" path="res://Assets/KenneyModels/number-2.glb" id="62_krtpa"]
+[ext_resource type="PackedScene" uid="uid://clc8vtu0k4ls5" path="res://Assets/KenneyModels/number-3.glb" id="63_l8cry"]
+[ext_resource type="PackedScene" uid="uid://d1gybc6q75tg5" path="res://Assets/KenneyModels/number-4.glb" id="64_w68vk"]
+[ext_resource type="PackedScene" uid="uid://cv2770tktnogu" path="res://Assets/KenneyModels/number-5.glb" id="65_k1tjq"]
+[ext_resource type="PackedScene" uid="uid://bwawulx8t6y0u" path="res://Assets/KenneyModels/number-6.glb" id="66_3d3gv"]
+[ext_resource type="PackedScene" uid="uid://bj3bua2hgiglw" path="res://Assets/KenneyModels/number-7.glb" id="67_g6ha0"]
+[ext_resource type="PackedScene" uid="uid://pd1ynms81pa3" path="res://Assets/KenneyModels/number-8.glb" id="68_id877"]
+[ext_resource type="PackedScene" uid="uid://c6tqmom53cv16" path="res://Assets/KenneyModels/number-9.glb" id="69_0wynj"]
+[ext_resource type="PackedScene" uid="uid://bu30d33nfuk7h" path="res://Assets/KenneyModels/number-double-0.glb" id="70_1qdjq"]
+[ext_resource type="PackedScene" uid="uid://dinxgtdypasig" path="res://Assets/KenneyModels/number-double-1.glb" id="71_otjbb"]
+[ext_resource type="PackedScene" uid="uid://d3ew3lnbaapox" path="res://Assets/KenneyModels/number-double-2.glb" id="72_cfbh8"]
+[ext_resource type="PackedScene" uid="uid://bl5ymi2anqoid" path="res://Assets/KenneyModels/number-double-3.glb" id="73_rwx1e"]
+[ext_resource type="PackedScene" uid="uid://d0edm2smu6thn" path="res://Assets/KenneyModels/number-double-4.glb" id="74_r6cfi"]
+[ext_resource type="PackedScene" uid="uid://dbdbntlh2uclw" path="res://Assets/KenneyModels/number-double-5.glb" id="75_uw824"]
+[ext_resource type="PackedScene" uid="uid://tkgcrlp0xacg" path="res://Assets/KenneyModels/number-double-6.glb" id="76_r833i"]
+[ext_resource type="PackedScene" uid="uid://b3aef7hxvy0k0" path="res://Assets/KenneyModels/number-double-7.glb" id="77_653gy"]
+[ext_resource type="PackedScene" uid="uid://doas18qdh0imy" path="res://Assets/KenneyModels/number-double-8.glb" id="78_313y8"]
+[ext_resource type="PackedScene" uid="uid://bb4bybragnf8d" path="res://Assets/KenneyModels/number-double-9.glb" id="79_kl6ic"]
+[ext_resource type="PackedScene" uid="uid://fdmmgrxxq6rf" path="res://Assets/KenneyModels/pipe-corner.glb" id="80_rej4x"]
+[ext_resource type="PackedScene" uid="uid://hvlg4gy7foox" path="res://Assets/KenneyModels/pipe-half-section.glb" id="81_8akdm"]
+[ext_resource type="PackedScene" uid="uid://b3nemh24rsj44" path="res://Assets/KenneyModels/pipe-half.glb" id="82_prcji"]
+[ext_resource type="PackedScene" uid="uid://cfw6gyqdbfugv" path="res://Assets/KenneyModels/pipe-section.glb" id="83_npk4v"]
+[ext_resource type="PackedScene" uid="uid://81u82ws7vbgl" path="res://Assets/KenneyModels/pipe-split.glb" id="84_2ypoy"]
+[ext_resource type="PackedScene" uid="uid://wrbve5o2tbu" path="res://Assets/KenneyModels/pipe.glb" id="85_2ysal"]
+[ext_resource type="PackedScene" uid="uid://dde71um78384v" path="res://Assets/KenneyModels/shape-cube-half.glb" id="86_ujcl1"]
+[ext_resource type="PackedScene" uid="uid://bq0droukgfie7" path="res://Assets/KenneyModels/shape-cube-rounded.glb" id="87_5nhfu"]
+[ext_resource type="PackedScene" uid="uid://dqbbgmyo8ic7t" path="res://Assets/KenneyModels/shape-cylinder-detailed.glb" id="89_vrrde"]
+[ext_resource type="PackedScene" uid="uid://ctfk3u5bl3lgu" path="res://Assets/KenneyModels/shape-cylinder-half-detailed.glb" id="90_v2vyv"]
+[ext_resource type="PackedScene" uid="uid://5fvvk7iwvejv" path="res://Assets/KenneyModels/shape-cylinder-half.glb" id="91_3sgny"]
+[ext_resource type="PackedScene" uid="uid://dbmikx3xqxqqu" path="res://Assets/KenneyModels/shape-cylinder.glb" id="92_safh8"]
+[ext_resource type="PackedScene" uid="uid://d2iiu14lr73ui" path="res://Assets/KenneyModels/shape-hexagon-half.glb" id="93_14ufc"]
+[ext_resource type="PackedScene" uid="uid://d3x530bd11o6c" path="res://Assets/KenneyModels/shape-hexagon.glb" id="94_jdddb"]
+[ext_resource type="PackedScene" uid="uid://caa386p8g0kr4" path="res://Assets/KenneyModels/shape-hollow-cylinder-detailed.glb" id="95_rq8yu"]
+[ext_resource type="PackedScene" uid="uid://dmgw8ityjh7ml" path="res://Assets/KenneyModels/shape-hollow-cylinder-half-detailed.glb" id="96_3n4tl"]
+[ext_resource type="PackedScene" uid="uid://cnucqyqpcxhyb" path="res://Assets/KenneyModels/shape-hollow-cylinder-half.glb" id="97_87jc6"]
+[ext_resource type="PackedScene" uid="uid://cki7hwkhvdu3a" path="res://Assets/KenneyModels/shape-hollow-cylinder.glb" id="98_uexyf"]
+[ext_resource type="PackedScene" uid="uid://cbetk2t57j6c0" path="res://Assets/KenneyModels/shape-hollow-hexagon-half.glb" id="99_f07or"]
+[ext_resource type="PackedScene" uid="uid://btsmjb5ptoo57" path="res://Assets/KenneyModels/shape-hollow-hexagon.glb" id="100_fypk8"]
+[ext_resource type="PackedScene" uid="uid://vatlm1ug7yrf" path="res://Assets/KenneyModels/shape-slope.glb" id="101_gysna"]
+[ext_resource type="PackedScene" uid="uid://cg1vxat5gloul" path="res://Assets/KenneyModels/shape-triangular-prism-low.glb" id="102_kdtva"]
+[ext_resource type="PackedScene" uid="uid://bq45o3hj5bpfo" path="res://Assets/KenneyModels/shape-triangular-prism.glb" id="103_ejxln"]
+[ext_resource type="PackedScene" uid="uid://1mjo8aw13wqh" path="res://Assets/KenneyModels/stairs-diagonal-narrow.glb" id="104_lh78s"]
+[ext_resource type="PackedScene" uid="uid://vpguhjvhccsi" path="res://Assets/KenneyModels/stairs-diagonal-small-narrow.glb" id="105_afh6d"]
+[ext_resource type="PackedScene" uid="uid://ekryd6iux8ws" path="res://Assets/KenneyModels/stairs-diagonal-small.glb" id="106_icffr"]
+[ext_resource type="PackedScene" uid="uid://kcfiq2qgmtcq" path="res://Assets/KenneyModels/stairs-diagonal.glb" id="107_ocg6k"]
+[ext_resource type="PackedScene" uid="uid://6qx57eqlsyns" path="res://Assets/KenneyModels/stairs-narrow.glb" id="108_scc1n"]
+[ext_resource type="PackedScene" uid="uid://bbqquprr86pxg" path="res://Assets/KenneyModels/stairs-small-narrow.glb" id="109_porxc"]
+[ext_resource type="PackedScene" uid="uid://po3aah5o4fv6" path="res://Assets/KenneyModels/stairs.glb" id="111_nmnb0"]
+[ext_resource type="PackedScene" uid="uid://dm45qoq4y16h7" path="res://Assets/KenneyModels/target-a-round.glb" id="112_clov4"]
+[ext_resource type="PackedScene" uid="uid://bclbemqgr4ic8" path="res://Assets/KenneyModels/target-a-square.glb" id="113_rjmbj"]
+[ext_resource type="PackedScene" uid="uid://xl4c5vlamppk" path="res://Assets/KenneyModels/target-b-round.glb" id="114_vftwa"]
+[ext_resource type="PackedScene" uid="uid://csa3sevth516a" path="res://Assets/KenneyModels/target-b-square.glb" id="115_3vc6b"]
+[ext_resource type="PackedScene" uid="uid://dx48or7vds0xm" path="res://Assets/KenneyModels/vehicle-convertible.glb" id="116_hugkd"]
+[ext_resource type="PackedScene" uid="uid://bpnxxyiynv1xd" path="res://Assets/KenneyModels/vehicle.glb" id="117_4ivq8"]
+[ext_resource type="PackedScene" uid="uid://d1cisfsbdxkk4" path="res://Assets/KenneyModels/wall-corner-low.glb" id="118_4t4qm"]
+[ext_resource type="PackedScene" uid="uid://cetyip0c5eqg5" path="res://Assets/KenneyModels/wall-corner-rounded-low.glb" id="119_1a7gy"]
+[ext_resource type="PackedScene" uid="uid://curj4nsxgqwji" path="res://Assets/KenneyModels/wall-corner-rounded.glb" id="120_7i00s"]
+[ext_resource type="PackedScene" uid="uid://be80kijy34of5" path="res://Assets/KenneyModels/wall-corner.glb" id="121_3fhfh"]
+[ext_resource type="PackedScene" uid="uid://bi7eit47oelld" path="res://Assets/KenneyModels/wall-diagonal-low.glb" id="122_c78tc"]
+[ext_resource type="PackedScene" uid="uid://dmh6jy8sn7hxw" path="res://Assets/KenneyModels/wall-diagonal.glb" id="123_abkmn"]
+[ext_resource type="PackedScene" uid="uid://cqdc8x2eoetof" path="res://Assets/KenneyModels/wall-doorway-garage.glb" id="124_a0vw3"]
+[ext_resource type="PackedScene" uid="uid://mx1xlwy8k7fu" path="res://Assets/KenneyModels/wall-doorway-round.glb" id="125_c2pbd"]
+[ext_resource type="PackedScene" uid="uid://bfgjr1rw5cmxs" path="res://Assets/KenneyModels/wall-doorway-sliding.glb" id="126_4w45a"]
+[ext_resource type="PackedScene" uid="uid://76ikxvge1hbr" path="res://Assets/KenneyModels/wall-doorway-wide-sliding.glb" id="127_t3tkv"]
+[ext_resource type="PackedScene" uid="uid://drwq7f7m5iv6x" path="res://Assets/KenneyModels/wall-doorway-wide.glb" id="128_euovc"]
+[ext_resource type="PackedScene" uid="uid://b0o2va2tsiwa4" path="res://Assets/KenneyModels/wall-doorway.glb" id="129_unby4"]
+[ext_resource type="Texture2D" uid="uid://cgdlex7iufgov" path="res://Assets/KenneyModels/Textures/colormap.png" id="130_2p786"]
+[ext_resource type="PackedScene" uid="uid://ck65ce385t8k5" path="res://Assets/KenneyModels/wall-round-low.glb" id="131_lj6j5"]
+[ext_resource type="PackedScene" uid="uid://dsbnk7lb8c1jt" path="res://Assets/KenneyModels/wall-round.glb" id="132_o7hak"]
+[ext_resource type="PackedScene" uid="uid://dpxgbjmybiis8" path="res://Assets/KenneyModels/wall-window-barred-large.glb" id="133_85syd"]
+[ext_resource type="PackedScene" uid="uid://buouh0nnlobb3" path="res://Assets/KenneyModels/wall-window-barred-medium.glb" id="134_rdpt8"]
+[ext_resource type="PackedScene" uid="uid://ye7h1ytin8m4" path="res://Assets/KenneyModels/wall-window-barred-small.glb" id="135_cdq1i"]
+[ext_resource type="PackedScene" uid="uid://cn8o1dld873ke" path="res://Assets/KenneyModels/wall-window-cutout-large.glb" id="136_b5bdj"]
+[ext_resource type="PackedScene" uid="uid://crygyrskhcfdq" path="res://Assets/KenneyModels/wall-window-cutout-medium.glb" id="137_4feuv"]
+[ext_resource type="PackedScene" uid="uid://cli4pb6euwrp0" path="res://Assets/KenneyModels/wall-window-cutout-small.glb" id="138_7mpsg"]
+[ext_resource type="PackedScene" uid="uid://1qrnvevtigqu" path="res://Assets/KenneyModels/wall-window-large.glb" id="139_rv1kn"]
+[ext_resource type="PackedScene" uid="uid://crecg2f1qxpst" path="res://Assets/KenneyModels/wall-window-medium.glb" id="140_6b3e6"]
+[ext_resource type="PackedScene" uid="uid://cl72y4n4dpwt5" path="res://Assets/KenneyModels/wall-window-small.glb" id="141_2ppqp"]
+[ext_resource type="PackedScene" uid="uid://c48ow3ihmmlk0" path="res://Assets/KenneyModels/wall.glb" id="142_tmgep"]
+[ext_resource type="PackedScene" uid="uid://dqsv1vmc4mtk7" path="res://Assets/KenneyModels/weapon-shield.glb" id="143_fwmga"]
+[ext_resource type="PackedScene" uid="uid://cc40rdhunhcfl" path="res://Assets/KenneyModels/weapon-sword.glb" id="144_3kxmr"]
+[ext_resource type="PackedScene" uid="uid://c621nwu3r2lke" path="res://Assets/KenneyModels/wheelchair.glb" id="145_ok48e"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3qu10"]
+resource_name = "colormap"
+cull_mode = 2
+albedo_texture = ExtResource("130_2p786")
+texture_filter = 2
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_v2jaq"]
+_surfaces = [{
+"aabb": AABB(-0.5, 0, -0.5, 1, 1, 1),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AgAAAAEAAQADAAIABAAAAAIAAgAFAAQABAAGAAEAAQAAAAQABwAGAAQABAAFAAcABwADAAEAAQAGAAcAAgADAAcABwAFAAIA"),
+"name": "colormap",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAAAAAAD//wAAAAAAAAAA//8AAAAA/////wAAAAAAAAAA//8AAAAA/////wAA//8AAP//AAD///////8AAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_sqbdx"]
+resource_name = "shape-cube_shape-cube"
+_surfaces = [{
+"aabb": AABB(-0.5, 0, -0.5, 1, 1, 1),
+"attribute_data": PackedByteArray("/3eY+f93mPn/d2XG/3dlxv93mPn/d2XG/3eY+f93Zcb/d5j5/3eY+f93mPn/d5j5/3eY+f93mPn/d2XG/3dlxv93Zcb/d5j5/3dlxv93mPn/d2XG/3dlxv93Zcb/d2XG"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AgAAAAEAAQADAAIABgAEAAUABQAHAAYACgAIAAkACQALAAoADgAMAA0ADQAPAA4AEgAQABEAEQATABIAFgAUABUAFQAXABYA"),
+"material": SubResource("StandardMaterial3D_3qu10"),
+"name": "colormap",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAAAA/////wAAAAD//wAA//8AAP///////wAA//8AAAAAAAD/vwAA//8AAP+/AAAAAP///78AAP//////v///AAD///+///8AAAAA/78AAAAA////vwAAAAAAAP+///8AAP//AIAAAAAA//8AgP///////wCAAAD/////AID/////AAD/v///AAAAAP+//////////7///wAA////v/////8AAP////////////8AAP//AAD//wAA/////////3////9/////f////3////9/////f////3////9///8AAP9/AAD/fwAA/38AAP9//3////9/////f////3////9/AAD/fwAA/38AAP9/AAD/f/+//3//v/9//7//f/+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_v2jaq")
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_1327d"]
+points = PackedVector3Array(0.5, 1, 0.5, 0.5, 1, -0.5, -0.5, 1, 0.5, 0.5, 0, 0.5, 0.5, 0, -0.5, -0.5, 1, -0.5, -0.5, 0, 0.5, -0.5, 0, -0.5)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1la5l"]
+resource_name = "colormap"
+cull_mode = 2
+albedo_texture = ExtResource("130_2p786")
+texture_filter = 2
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_61y5g"]
+_surfaces = [{
+"aabb": AABB(-0.5, 0, -0.5, 1, 1, 1),
+"format": 34896613377,
+"index_count": 204,
+"index_data": PackedByteArray("AgAAAAEAAgADAAQABwAFAAYACQAIAAYADAAKAAsACwANAAwAEAAOAA8ADwARABAADwACABEAAgASABEAEgATABEAAgABABIAAQAKABIACgAUABIAAQALAAoAAAAVAAEAAgAEAAAABAAWAAAAAgAXAAMAAwAYAAQAGQAOABAAEAAaABkAGQAbAA8ADwAOABkABQAAABYAFgAcAAUACAADABcAFwAdAAgACQAEABgAGAAeAAkAHwARABMAEwAgAB8AFwACAAYABgAdABcABwABABUAFQAhAAcAFgAEAAkACQAcABYACAAdAAYAHgAIAAkABQAJAAYAHAAJAAUAIQAFAAcAIgAHAAYAIgAMAAcADQAHAAwAIwAMACIAHwAiAAYAIAAiAB8AHwAGABsAGwAZAB8AGgAfABkAGAADAAgACAAeABgABgACAA8ADwAbAAYAEAARAB8AHwAaABAACwABAAcABwANAAsAFQAAAAUABQAhABUAEwASACIAIgAgABMAIgASABQAFAAjACIAFAAKAAwADAAjABQA"),
+"name": "colormap",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 36,
+"vertex_data": PackedByteArray("/5//nwAAAAD/f/9/AAAAAP////8AAAAA/9//3wAAAAD/v/+/AAAAAP+f/5///wAA////////AAD/f/9///8AAP/f/9///wAA/7//v///AAD/X/9fAAAAAP9f/38AAAAA/1//X///AAD/X/9///8AAAAAAAAAAAAA//8AAAAAAAAAAP8fAAAAAP8f/x8AAAAA/z//PwAAAAD/H/8/AAAAAP8//18AAAAA/3//nwAAAAD/n/+/AAAAAP/f//8AAAAA/7//3wAAAAAAAAAA//8AAAAA/x///wAA//8AAP//AAD/n/+///8AAP/f/////wAA/7//3///AAD/H/8f//8AAP8f/z///wAA/3//n///AAD/P/8///8AAP8//1///wAA")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_87764"]
+resource_name = "stairs-small_stairs-small"
+_surfaces = [{
+"aabb": AABB(-0.5, 0, -0.5, 1, 1, 1),
+"attribute_data": PackedByteArray("/3eY2f93/9//d2XG/3fMzP93MtP/d2XG/3eY2f93Zcb/d//f/3fMzP93Zcb/dzLT/3dl5v93/9//d2Xm/3f/3/93mPn/d5j5/3cy8/93MvP/d2XG/3fL7P93y+z/d//f/3dl5v93Zeb/d//f/3eY2f93mNn/dzLT/3cy0/93Zcb/d8zM/3fMzP93mPn/dzLz/3eY+f93MvP/d5j5/3eY+f93mPn/d5j5/3eY2f93MtP/d5jZ/3cy0/93zMz/d2XG/3fMzP93Zcb/dzLT/3fMzP93MtP/d8zM/3cy8/93y+z/dzLz/3fL7P93Zcb/d2XG/3dlxv93Zcb/d//f/3eY2f93/9//d5jZ/3cy0/93MtP/dzLT/3cy0/93Zcb/d2XG/3fMzP93MtP/d8zM/3eY2f93MtP/d//f/3eY2f93y+z/d2Xm/3f/3/93Zeb/dzLz/3fL7P93mPn/d5j5/3cy8/93zMz/d8zM/3fMzP93zMz/d2XG/3eY+f93Zcb/d5j5/3cy8/93MvP/dzLz/3cy8/93/9//d//f/3f/3/93/9//d5jZ/3eY2f93mNn/d5jZ/3fL7P93y+z/d8vs/3fL7P93y+z/d2Xm/3fL7P93Zeb/d2Xm/3dl5v93Zeb/d2Xm"),
+"format": 34896613399,
+"index_count": 204,
+"index_data": PackedByteArray("AgAAAAEABQADAAQACAAGAAcACwAJAAoADgAMAA0ADQAPAA4AEgAQABEAEQATABIAEQAUABMAFAAVABMAFQAWABMAFAAXABUAFwAYABUAGAAZABUAFwAaABgAHAAbABcAFAAdABwAHQAeABwAFAAfACAAIAAhAB0AJAAiACMAIwAlACQAKAAmACcAJwApACgALAAqACsAKwAtACwAMAAuAC8ALwAxADAANAAyADMAMwA1ADQAOAA2ADcANwA5ADgAPAA6ADsAOwA9ADwAQAA+AD8APwBBAEAARABCAEMAQwBFAEQASABGAEcASgBIAEkASwBJAEcATABJAEsATgBLAE0ATwBNAEcATwBQAE0AUQBNAFAAUgBQAE8AUwBPAEcAVABPAFMAUwBHAFUAVQBWAFMAVwBTAFYAWgBYAFkAWQBbAFoAXgBcAF0AXQBfAF4AYgBgAGEAYQBjAGIAZgBkAGUAZQBnAGYAagBoAGkAaQBrAGoAbgBsAG0AbQBvAG4AcgBwAHEAcQBzAHIAdgB0AHUAdQB3AHYA"),
+"material": SubResource("StandardMaterial3D_1la5l"),
+"name": "colormap",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 120,
+"vertex_data": PackedByteArray("/5//nwAAAAD/f/9/AAAAAP////8AAAAA/9//3wAAAAD/v/+/AAAAAP////8AAAAA/5//n////n/////////+f/9//3////5//9//3////n//////////P/+//7////5//1//XwAA/7//X/9/AAD/v/9f/1////+//1//f////78AAAAAAAD/////AAAAAP//AAD/HwAA////H/8fAAD///////8AAP///z//PwAA////H/8/AAD///9//38AAP///1//XwAA////P/9fAAD///9f/38AAP///3//nwAA////n/+fAAD///+//78AAP///5//vwAA////3///AAD////f/98AAP///7//3wAA//8AAAAAAAD/vwAA/x8AAP+/AAAAAP///78AAP8f////v///AAD///+///8AAAAA/78AAAAA////vwAAAAAAAP+//5//nwAA/7//n/+/AAD/v/+f/5////+//5//v////7//3//fAAD/v//f//8AAP+//9//3////7//3///////v/+//78AAP+//7//3wAA/7//v/+/////v/+//9////+//x//HwAA/7//H/8/AAD/v/8f/x////+//x//P////7//////AAD//////////////9///wAA////3/////////9//38AAP+//3//nwAA/7//f/9/////v/9//5////+//7//vwAA////v/+///////+f/78AAP///5//v///////3/////8AgP///////wCA/9//3///AID/v/+///8AgP+//9///wCA/5//n///AID/n/+///8AgP9//3///wCA/3//n///AID/P/8///8AgP9f/1///wCA/1//f///AID/P/9f//8AgP8f/x///wCA/x//P///AID//wAA//8AgAAAAAD//wCAAAD/H///AID/3//fAAD////f/9///////7//3wAA////v//f//////////8AAP+///8AAAAA/7//////////v///AAD///+//x//HwAA////H/8f/////wAA/x8AAP//AAD/H///////f/9/AAD///9//3///////1//fwAA////X/9///////+f/58AAP///5//n///////f/+fAAD///9//5///////z//PwAA////P/8///////8f/z8AAP///x//P///////P/8/AAD/v/8//18AAP+//z//P////7//P/9f////v/9f/18AAP///1//X///////P/9fAAD///8//1///////3////9/////f////3////9/////v/+//3////9/////f////3//////////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9///8AAP9/AAD/fwAA/38AAP9//3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9//7//f/+//3//v/9//7//f////3////9/////f////3//v/9//7//f/+//3//v/9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9//7//f/+//3//v/9//7//fwAA/38AAP9/AAD/fwAA/3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9/////f////3////9/////f/+//3//v/9//7//f/+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_61y5g")
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_gc0ly"]
+points = PackedVector3Array(0.5, 1, 0.5, 0.5, 1, -0.5, 0.374902, 1, 0.5, 0.5, 0, 0.5, 0.5, 0, -0.5, 0.374902, 1, -0.5, -0.375098, 0.249902, 0.5, -0.5, 0, 0.5, -0.5, 0, -0.5, -0.375098, 0.249902, -0.5, -0.5, 0.124902, 0.5, -0.5, 0.124902, -0.5)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2odo3"]
+resource_name = "colormap"
+cull_mode = 2
+albedo_texture = ExtResource("130_2p786")
+texture_filter = 2
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_kkeec"]
+_surfaces = [{
+"aabb": AABB(-0.1, 0, -0.5, 0.2, 0.5, 1),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AgAAAAEAAQADAAIABQAEAAEAAQAAAAUABgAEAAUABQAHAAYAAgADAAYABgAHAAIABgADAAEAAQAEAAYABQAAAAIAAgAHAAUA"),
+"name": "colormap",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("/////wAAAAD//wAAAAAAAP///////wAA//8AAP//AAAAAAAAAAAAAAAA//8AAAAAAAAAAP//AAAAAP////8AAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_g7813"]
+resource_name = "wall-low_wall-low"
+_surfaces = [{
+"aabb": AABB(-0.1, 0, -0.5, 0.2, 0.5, 1),
+"attribute_data": PackedByteArray("/3dlxv93mPn/d2XG/3eY+f93mPn/d5j5/3dlxv93Zcb/d5j5/3dlxv93mPn/d2XG/3eY+f93mPn/d2XG/3dlxv93mPn/d5j5/3eY+f93mPn/d2XG/3dlxv93Zcb/d2XG"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AgAAAAEAAQADAAIABgAEAAUABQAHAAYACgAIAAkACQALAAoADgAMAA0ADQAPAA4AEgAQABEAEQATABIAFgAUABUAFQAXABYA"),
+"material": SubResource("StandardMaterial3D_2odo3"),
+"name": "colormap",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("/////wAA/7///wAAAAD/v/////////+///8AAP///78AAAAAAAD/////AAAAAP//AAD//wAA////////AAD//wAAAAAAAP+/AAD//wAA/78AAAAA////vwAA//////+///8AAP//AIAAAAAA//8AgP///////wCAAAD/////AID//wAA////v///AAAAAP+/AAAAAP///78AAAAAAAD/v/////8AAP////////////8AAP//AAD//wAA/////////38AAP9/AAD/fwAA/38AAP9/////f////3////9/////f////3////9/////f////3////9/////f////3///wAA/38AAP9/AAD/fwAA/3//f/+//3//v/9//7//f/+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_kkeec")
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_7xxci"]
+points = PackedVector3Array(-0.1, 0, -0.5, 0.1, 0, -0.5, -0.1, 0, 0.5, -0.1, 0.5, -0.5, 0.1, 0.5, -0.5, 0.1, 0, 0.5, -0.1, 0.5, 0.5, 0.1, 0.5, 0.5)
+
+[node name="Tiles" type="Node3D"]
+
+[node name="animal-bison2" parent="." instance=ExtResource("1_y5nbp")]
+visible = false
+
+[node name="animal-dog2" parent="." instance=ExtResource("2_gpyvq")]
+visible = false
+
+[node name="animal-horse2" parent="." instance=ExtResource("3_x1t72")]
+visible = false
+
+[node name="button-floor-round-small2" parent="." instance=ExtResource("4_yn3cc")]
+visible = false
+
+[node name="button-floor-round2" parent="." instance=ExtResource("5_07u2m")]
+visible = false
+
+[node name="button-floor-square-small2" parent="." instance=ExtResource("6_776uc")]
+visible = false
+
+[node name="button-floor-square2" parent="." instance=ExtResource("7_qmpwl")]
+visible = false
+
+[node name="coin2" parent="." instance=ExtResource("8_1626l")]
+visible = false
+
+[node name="column-low2" parent="." instance=ExtResource("9_c5j8j")]
+visible = false
+
+[node name="column-rounded-low2" parent="." instance=ExtResource("10_24dgt")]
+visible = false
+
+[node name="column-rounded2" parent="." instance=ExtResource("11_gc3jf")]
+visible = false
+
+[node name="column-triangle-low2" parent="." instance=ExtResource("12_boqb6")]
+visible = false
+
+[node name="column-triangle2" parent="." instance=ExtResource("13_pc5wo")]
+visible = false
+
+[node name="column2" parent="." instance=ExtResource("14_noppi")]
+visible = false
+
+[node name="crate-color2" parent="." instance=ExtResource("15_ja15y")]
+visible = false
+
+[node name="crate2" parent="." instance=ExtResource("16_6gsbi")]
+visible = false
+
+[node name="door-garage2" parent="." instance=ExtResource("17_3qraq")]
+visible = false
+
+[node name="door-rotate2" parent="." instance=ExtResource("18_d76g0")]
+visible = false
+
+[node name="door-sliding-double-round2" parent="." instance=ExtResource("19_uae8r")]
+visible = false
+
+[node name="door-sliding-double-wide2" parent="." instance=ExtResource("20_02pxp")]
+visible = false
+
+[node name="door-sliding-double2" parent="." instance=ExtResource("21_rcwm4")]
+visible = false
+
+[node name="door-sliding2" parent="." instance=ExtResource("22_8q15q")]
+visible = false
+
+[node name="figurine-cube-detailed2" parent="." instance=ExtResource("23_0n0fh")]
+visible = false
+
+[node name="figurine-cube2" parent="." instance=ExtResource("24_g5he5")]
+visible = false
+
+[node name="figurine-large2" parent="." instance=ExtResource("25_f58pr")]
+visible = false
+
+[node name="figurine2" parent="." instance=ExtResource("26_xnvce")]
+visible = false
+
+[node name="flag2" parent="." instance=ExtResource("27_0we63")]
+visible = false
+
+[node name="floor-diagonal2" parent="." instance=ExtResource("28_t6s36")]
+visible = false
+
+[node name="floor-small-diagonal2" parent="." instance=ExtResource("29_x307m")]
+visible = false
+
+[node name="floor-small-square2" parent="." instance=ExtResource("30_rd1kj")]
+visible = false
+
+[node name="floor-square2" parent="." instance=ExtResource("31_scv23")]
+visible = false
+
+[node name="floor-thick-corner-diagonal2" parent="." instance=ExtResource("32_jm86g")]
+visible = false
+
+[node name="floor-thick-corner-round2" parent="." instance=ExtResource("33_hv6dt")]
+visible = false
+
+[node name="floor-thick-corner-rounded2" parent="." instance=ExtResource("34_1c8x1")]
+visible = false
+
+[node name="floor-thick2" parent="." instance=ExtResource("35_offtn")]
+visible = false
+
+[node name="hat-cap2" parent="." instance=ExtResource("36_nr87c")]
+visible = false
+
+[node name="hat-hard2" parent="." instance=ExtResource("37_twrlr")]
+visible = false
+
+[node name="indicator-doorway2" parent="." instance=ExtResource("38_xwbn7")]
+visible = false
+
+[node name="indicator-round-a2" parent="." instance=ExtResource("39_1ntov")]
+visible = false
+
+[node name="indicator-round-b2" parent="." instance=ExtResource("40_480ag")]
+visible = false
+
+[node name="indicator-round-c2" parent="." instance=ExtResource("41_nq4no")]
+visible = false
+
+[node name="indicator-round-d2" parent="." instance=ExtResource("42_d1tab")]
+visible = false
+
+[node name="indicator-round-e2" parent="." instance=ExtResource("43_rb2ei")]
+visible = false
+
+[node name="indicator-round-f2" parent="." instance=ExtResource("44_a30am")]
+visible = false
+
+[node name="indicator-special-area2" parent="." instance=ExtResource("45_ptrdh")]
+visible = false
+
+[node name="indicator-special-arrow2" parent="." instance=ExtResource("46_2y1bo")]
+visible = false
+
+[node name="indicator-special-cross2" parent="." instance=ExtResource("47_0lsk6")]
+visible = false
+
+[node name="indicator-special-lines2" parent="." instance=ExtResource("48_4jyqv")]
+visible = false
+
+[node name="indicator-square-a2" parent="." instance=ExtResource("49_xc5wc")]
+visible = false
+
+[node name="indicator-square-b2" parent="." instance=ExtResource("50_m16m1")]
+visible = false
+
+[node name="indicator-square-c2" parent="." instance=ExtResource("51_bfy08")]
+visible = false
+
+[node name="indicator-square-d2" parent="." instance=ExtResource("52_sa5bm")]
+visible = false
+
+[node name="indicator-square-e2" parent="." instance=ExtResource("53_1v4hu")]
+visible = false
+
+[node name="indicator-square-f2" parent="." instance=ExtResource("54_cm2lt")]
+visible = false
+
+[node name="ladder-color2" parent="." instance=ExtResource("55_4f2nr")]
+visible = false
+
+[node name="ladder-top2" parent="." instance=ExtResource("56_81imq")]
+visible = false
+
+[node name="ladder2" parent="." instance=ExtResource("57_qpfr5")]
+visible = false
+
+[node name="lever-double2" parent="." instance=ExtResource("58_cb7vq")]
+visible = false
+
+[node name="lever-single2" parent="." instance=ExtResource("59_osc8w")]
+visible = false
+
+[node name="number-02" parent="." instance=ExtResource("60_lyxea")]
+visible = false
+
+[node name="number-12" parent="." instance=ExtResource("61_cjura")]
+visible = false
+
+[node name="number-22" parent="." instance=ExtResource("62_krtpa")]
+visible = false
+
+[node name="number-32" parent="." instance=ExtResource("63_l8cry")]
+visible = false
+
+[node name="number-42" parent="." instance=ExtResource("64_w68vk")]
+visible = false
+
+[node name="number-52" parent="." instance=ExtResource("65_k1tjq")]
+visible = false
+
+[node name="number-62" parent="." instance=ExtResource("66_3d3gv")]
+visible = false
+
+[node name="number-72" parent="." instance=ExtResource("67_g6ha0")]
+visible = false
+
+[node name="number-82" parent="." instance=ExtResource("68_id877")]
+visible = false
+
+[node name="number-92" parent="." instance=ExtResource("69_0wynj")]
+visible = false
+
+[node name="number-double-02" parent="." instance=ExtResource("70_1qdjq")]
+visible = false
+
+[node name="number-double-12" parent="." instance=ExtResource("71_otjbb")]
+visible = false
+
+[node name="number-double-22" parent="." instance=ExtResource("72_cfbh8")]
+visible = false
+
+[node name="number-double-32" parent="." instance=ExtResource("73_rwx1e")]
+visible = false
+
+[node name="number-double-42" parent="." instance=ExtResource("74_r6cfi")]
+visible = false
+
+[node name="number-double-52" parent="." instance=ExtResource("75_uw824")]
+visible = false
+
+[node name="number-double-62" parent="." instance=ExtResource("76_r833i")]
+visible = false
+
+[node name="number-double-72" parent="." instance=ExtResource("77_653gy")]
+visible = false
+
+[node name="number-double-82" parent="." instance=ExtResource("78_313y8")]
+visible = false
+
+[node name="number-double-92" parent="." instance=ExtResource("79_kl6ic")]
+visible = false
+
+[node name="pipe-corner2" parent="." instance=ExtResource("80_rej4x")]
+visible = false
+
+[node name="pipe-half-section2" parent="." instance=ExtResource("81_8akdm")]
+visible = false
+
+[node name="pipe-half2" parent="." instance=ExtResource("82_prcji")]
+visible = false
+
+[node name="pipe-section2" parent="." instance=ExtResource("83_npk4v")]
+visible = false
+
+[node name="pipe-split2" parent="." instance=ExtResource("84_2ypoy")]
+visible = false
+
+[node name="pipe2" parent="." instance=ExtResource("85_2ysal")]
+visible = false
+
+[node name="shape-cube-half2" parent="." instance=ExtResource("86_ujcl1")]
+visible = false
+
+[node name="shape-cube-rounded2" parent="." instance=ExtResource("87_5nhfu")]
+visible = false
+
+[node name="shape-cube2" type="Node3D" parent="."]
+
+[node name="shape-cube" type="MeshInstance3D" parent="shape-cube2"]
+mesh = SubResource("ArrayMesh_sqbdx")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="shape-cube2/shape-cube"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="shape-cube2/shape-cube/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_1327d")
+
+[node name="shape-cylinder-detailed2" parent="." instance=ExtResource("89_vrrde")]
+visible = false
+
+[node name="shape-cylinder-half-detailed2" parent="." instance=ExtResource("90_v2vyv")]
+visible = false
+
+[node name="shape-cylinder-half2" parent="." instance=ExtResource("91_3sgny")]
+visible = false
+
+[node name="shape-cylinder2" parent="." instance=ExtResource("92_safh8")]
+visible = false
+
+[node name="shape-hexagon-half2" parent="." instance=ExtResource("93_14ufc")]
+visible = false
+
+[node name="shape-hexagon2" parent="." instance=ExtResource("94_jdddb")]
+visible = false
+
+[node name="shape-hollow-cylinder-detailed2" parent="." instance=ExtResource("95_rq8yu")]
+visible = false
+
+[node name="shape-hollow-cylinder-half-detailed2" parent="." instance=ExtResource("96_3n4tl")]
+visible = false
+
+[node name="shape-hollow-cylinder-half2" parent="." instance=ExtResource("97_87jc6")]
+visible = false
+
+[node name="shape-hollow-cylinder2" parent="." instance=ExtResource("98_uexyf")]
+visible = false
+
+[node name="shape-hollow-hexagon-half2" parent="." instance=ExtResource("99_f07or")]
+visible = false
+
+[node name="shape-hollow-hexagon2" parent="." instance=ExtResource("100_fypk8")]
+visible = false
+
+[node name="shape-slope2" parent="." instance=ExtResource("101_gysna")]
+visible = false
+
+[node name="shape-triangular-prism-low2" parent="." instance=ExtResource("102_kdtva")]
+visible = false
+
+[node name="shape-triangular-prism2" parent="." instance=ExtResource("103_ejxln")]
+visible = false
+
+[node name="stairs-diagonal-narrow2" parent="." instance=ExtResource("104_lh78s")]
+visible = false
+
+[node name="stairs-diagonal-small-narrow2" parent="." instance=ExtResource("105_afh6d")]
+visible = false
+
+[node name="stairs-diagonal-small2" parent="." instance=ExtResource("106_icffr")]
+visible = false
+
+[node name="stairs-diagonal2" parent="." instance=ExtResource("107_ocg6k")]
+visible = false
+
+[node name="stairs-narrow2" parent="." instance=ExtResource("108_scc1n")]
+visible = false
+
+[node name="stairs-small-narrow2" parent="." instance=ExtResource("109_porxc")]
+visible = false
+
+[node name="stairs-small2" type="Node3D" parent="."]
+visible = false
+
+[node name="stairs-small" type="MeshInstance3D" parent="stairs-small2"]
+mesh = SubResource("ArrayMesh_87764")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="stairs-small2/stairs-small"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="stairs-small2/stairs-small/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_gc0ly")
+
+[node name="stairs2" parent="." instance=ExtResource("111_nmnb0")]
+visible = false
+
+[node name="target-a-round2" parent="." instance=ExtResource("112_clov4")]
+visible = false
+
+[node name="target-a-square2" parent="." instance=ExtResource("113_rjmbj")]
+visible = false
+
+[node name="target-b-round2" parent="." instance=ExtResource("114_vftwa")]
+visible = false
+
+[node name="target-b-square2" parent="." instance=ExtResource("115_3vc6b")]
+visible = false
+
+[node name="vehicle-convertible" parent="." instance=ExtResource("116_hugkd")]
+visible = false
+
+[node name="vehicle" parent="." instance=ExtResource("117_4ivq8")]
+visible = false
+
+[node name="wall-corner-low2" parent="." instance=ExtResource("118_4t4qm")]
+visible = false
+
+[node name="wall-corner-rounded-low2" parent="." instance=ExtResource("119_1a7gy")]
+visible = false
+
+[node name="wall-corner-rounded2" parent="." instance=ExtResource("120_7i00s")]
+visible = false
+
+[node name="wall-corner2" parent="." instance=ExtResource("121_3fhfh")]
+visible = false
+
+[node name="wall-diagonal-low2" parent="." instance=ExtResource("122_c78tc")]
+visible = false
+
+[node name="wall-diagonal2" parent="." instance=ExtResource("123_abkmn")]
+visible = false
+
+[node name="wall-doorway-garage2" parent="." instance=ExtResource("124_a0vw3")]
+visible = false
+
+[node name="wall-doorway-round2" parent="." instance=ExtResource("125_c2pbd")]
+visible = false
+
+[node name="wall-doorway-sliding2" parent="." instance=ExtResource("126_4w45a")]
+visible = false
+
+[node name="wall-doorway-wide-sliding2" parent="." instance=ExtResource("127_t3tkv")]
+visible = false
+
+[node name="wall-doorway-wide2" parent="." instance=ExtResource("128_euovc")]
+visible = false
+
+[node name="wall-doorway2" parent="." instance=ExtResource("129_unby4")]
+visible = false
+
+[node name="wall-low2" type="Node3D" parent="."]
+visible = false
+
+[node name="wall-low" type="MeshInstance3D" parent="wall-low2"]
+mesh = SubResource("ArrayMesh_g7813")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="wall-low2/wall-low"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="wall-low2/wall-low/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_7xxci")
+
+[node name="wall-round-low2" parent="." instance=ExtResource("131_lj6j5")]
+visible = false
+
+[node name="wall-round2" parent="." instance=ExtResource("132_o7hak")]
+visible = false
+
+[node name="wall-window-barred-large2" parent="." instance=ExtResource("133_85syd")]
+visible = false
+
+[node name="wall-window-barred-medium2" parent="." instance=ExtResource("134_rdpt8")]
+visible = false
+
+[node name="wall-window-barred-small2" parent="." instance=ExtResource("135_cdq1i")]
+visible = false
+
+[node name="wall-window-cutout-large2" parent="." instance=ExtResource("136_b5bdj")]
+visible = false
+
+[node name="wall-window-cutout-medium2" parent="." instance=ExtResource("137_4feuv")]
+visible = false
+
+[node name="wall-window-cutout-small2" parent="." instance=ExtResource("138_7mpsg")]
+visible = false
+
+[node name="wall-window-large2" parent="." instance=ExtResource("139_rv1kn")]
+visible = false
+
+[node name="wall-window-medium2" parent="." instance=ExtResource("140_6b3e6")]
+visible = false
+
+[node name="wall-window-small2" parent="." instance=ExtResource("141_2ppqp")]
+visible = false
+
+[node name="wall2" parent="." instance=ExtResource("142_tmgep")]
+visible = false
+
+[node name="weapon-shield2" parent="." instance=ExtResource("143_fwmga")]
+visible = false
+
+[node name="weapon-sword2" parent="." instance=ExtResource("144_3kxmr")]
+visible = false
+
+[node name="wheelchair2" parent="." instance=ExtResource("145_ok48e")]
+visible = false

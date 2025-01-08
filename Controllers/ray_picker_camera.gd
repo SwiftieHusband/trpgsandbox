@@ -18,5 +18,8 @@ func _process(delta: float) -> void:
 				if Input.is_action_just_pressed("click"):
 					var collision_point = ray_cast_3d.get_collision_point()
 					var cell = grid_map.local_to_map(collision_point)
+					player.destinationPosition = Vector3i(cell.x, cell.y, cell.z)
+					print(cell)
+					
 	else:
 		Input.set_default_cursor_shape(Input.CURSOR_ARROW)
